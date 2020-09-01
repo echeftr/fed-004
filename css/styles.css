@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Montserrat&display=swap');
+
+/* Full page css */
+html{
+    font-family: 'Montserrat', sans-serif;
+    }
+    body{
+        margin: 0;
+    }
+    
+    /* Header css */
+header{
+    background: linear-gradient(90deg, rgba(29,89,236,1) 1%, rgba(0,255,93,1) 100%);
+    margin: 0;
+    padding-bottom: 20px;
+    }
+#logo-top{
+        border: 2px solid white;
+    }
+    
+    /* MainNav css */
+#main-nav{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    text-align: center;
+}
+#main-nav li{
+    display: inline;
+    padding: 10px;    
+}
+#main-nav li a{
+    text-decoration: none;
+    color: black;
+}
+#main-nav li:hover{
+    border: 1px dotted black;
+    border-radius: 10%;
+    background-color: white;
+}
+/* Main css */
+main{
+    margin: 30px;
+}
+.h1-top{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+p{
+    color: red;
+}
+
+/* Footer css */
+footer{
+    background: linear-gradient(90deg, rgba(0,255,93,1) 1%, rgba(29,89,236,1) 100%);
+    
+
+}
+
